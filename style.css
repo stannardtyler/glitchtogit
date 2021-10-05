@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&display=swap');
+
+
+body {
+  background-color: #ffe8d6;
+  margin-bottom: 50px;
+
+}
+
+h1 {
+
+}
+
+.jumbotron {
+  background-color: #b7b7a4;
+}
+
+.container {
+/* font-family: 'Ephesis', cursive; */
+    font-family: 'Comic Neue', cursive;
+}
+
+.navbar {
+  background-color: #6b705c !important;
+}

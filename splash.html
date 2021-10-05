@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Da Vinci Bootstrap Demo</title>
+
+    <!--This commented out code below is for using the bootstrap CSS via a link -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- This code below is for linking Bootstrap via a local file!-->
+    <!--<link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">-->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      .fakeimg {
+        height: 200px;
+        background: #aaa;
+      }
+
+      /*The CSS below overrides the CSS we have in the style.css file */
+
+      body {
+        height: 100%;
+        
+      }
+
+      h1 {
+        font-size: 100px;
+      }
+
+      .container {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* unvisited link */
+      a:link {
+        color: black;
+      }
+
+      /* visited link */
+      a:visited {
+        color: black;
+      }
+
+      /* mouse over link */
+      a:hover {
+        color: #6b705c;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="d-flex flex-column min-vh-100 justify-content-center  container"
+      style="margin-top:30px"
+    >
+      <div class="row">
+        <!-- Col 1 -->
+        <div
+          class="d-flex justify-content-center  align-items-center col-sm-10"
+        >
+          <h1>Your Name</h1>
+        </div>
+
+        <!-- Col 2 -->
+        <div class=" col-sm-2">
+          <h3>
+            <a href="grid1.html">Grid 1</a>
+          </h3>
+          <br />
+          <h3><a href="grid2.html">Grid 2</a></h3>
+          <br />
+          <h3><a href="grid3.html">Grid 3</a></h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
